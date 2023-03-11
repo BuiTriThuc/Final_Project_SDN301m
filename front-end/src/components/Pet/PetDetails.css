@@ -1,0 +1,212 @@
+.well {
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 5%);
+    display: flex;
+}
+
+.no-padding {
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.widget-image {
+    height: auto;
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: block;
+    object-fit: contain;
+}
+
+
+.pet-details-features {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 800px;
+    max-height: 100%;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0 !important;
+}
+
+.ProductDetails>div:last-child {
+    align-items: flex-start;
+}
+
+.image-pet-info {
+    height: auto;
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    display: block;
+    object-fit: contain;
+}
+
+.border-bottom-gray {
+    border-bottom: 1px solid #e7eded;
+}
+
+.rounded-tl-lg {
+    border-top-left-radius: 0.5rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.fido-blue-text {
+    color: #85a1b4;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pet-id-label {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+    text-align: right;
+}
+
+@media (min-width: 375px) {
+    .pet-id-label {
+        line-height: 6.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .pet-id-label {
+        font-size: 1.75rem;
+    }
+}
+
+.rounded-tr-lg {
+    border-top-right-radius: 0.5rem;
+}
+
+.fido-green-text {
+    color: #8dc63f;
+}
+
+.font-size-21 {
+    font-size: 1.5rem;
+    font: "Merriweather Sans",
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .visible-md {
+        display: block !important;
+    }
+
+}
+
+.btn-primary-pet {
+    color: #ffffff !important;
+    background-color: #8DC63F !important;
+}
+
+.btn-primary-pet:hover {
+    background-color: #bcdd8e !important;
+}
+
+
+.font-size-20 {
+    font-size: 2.5rem !important;
+}
+
+.font-weight-800 {
+    font-weight: 800 !important;
+}
+
+.btn {
+    border-radius: 15px !important;
+}
+
+.btn-center {
+    text-align: center !important;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.info-label {
+    font-size: min(max(10vw, 0.4em), 1.2em);
+    color: #85a1b4;
+    text-align: right;
+    padding-top: 5px;
+}
+
+.margin-top-0 {
+    margin-top: 0 !important;
+}
+
+.label-status {
+    display: inline;
+    padding: 0.6em 1em 0.7em;
+    font-size: 85%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.label-status-danger {
+    background-color: #d9534f;
+}
+
+.label-status-warning {
+    background-color: #f0ad4e;
+}
+
+.label-status-success {
+    background-color: #8DC63F;
+}
+
+.text-info-pet {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.6em;
+    color: #728694;
+}

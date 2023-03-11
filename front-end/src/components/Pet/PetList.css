@@ -1,0 +1,107 @@
+.pet-feed-search-results-container h1 {
+    font-size: min(max(10vw, 1.6em), 3.2em);
+    color: #59666f;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center-info {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.6em;
+    color: #728694;
+}
+
+.widget-feature {
+    border: solid 2px #8dc63f;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.pet-search-result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 12px;
+}
+
+.widget-feature.overflow-visible {
+    overflow: visible;
+}
+
+.fido-blue-bg {
+    background-color: #85a1b4;
+}
+
+.no-padding {
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.hero-pattern {
+    background-image: url("../../images/pet_bk.png");
+}
+
+.widget-image-feed, .widget-image-feed-sm {
+    box-sizing: border-box;
+    max-width: 100%;
+    height: 405px;
+    max-height: 50%;
+    position: relative;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.image-pet {
+    width: 100%;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.my-1 {
+    margin-top: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.text-report {
+    font-weight: 500 !important;
+    font-size: 22px !important;
+    line-height: 1.6em !important;
+    color: #728694 !important;
+}
+
+.margin-spacer-sm {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pet-feed-description {
+    display: block;
+    display: -webkit-box;
+    height: 50.4px;
+    font-size: 18px !important;
+    line-height: 1.4 !important;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.btn-primary-pet {
+    background-color: #8DC63F;
+}
+
+.width-full {
+    width: 100%;
+}
+
+
+

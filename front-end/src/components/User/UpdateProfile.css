@@ -1,0 +1,206 @@
+.updateProfileContainer {
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(
+      to right bottom,
+      #0dcfe1,
+      #5fd5bd,
+      #9bd69d,
+      #cdd28e,
+      #f6cc96
+    );
+    min-height: 85vh;
+    overflow: hidden;
+  }
+  
+  .updateProfileBox {
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    width: 50%;
+    transition: 1s 0.7s ease-in-out;
+    grid-template-columns: 1fr;
+    z-index: 5;
+  }
+  
+  .updateProfileBox > div > button {
+    background-color: #52b69a;
+    height: 3px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+  }
+  
+  
+  .updateProfileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 2vmax;
+    height: 70%;
+    justify-content: space-evenly;
+    transition: all 0.5s;
+  }
+  
+  
+  #updateProfileImage > img {
+    width: 3vmax;
+    border-radius: 100%;
+  }
+  #updateProfileImage > input {
+    display: flex;
+    padding: 0%;
+  }
+  
+  #updateProfileImage > input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 0.8vmax cursive;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #updateProfileImage > input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  .title {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .btn-submit {
+    width: 150px;
+    background-color: rgba(52, 160, 164, 0.8);
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .btn-submit:hover {
+    background-color: rgba(14, 206, 212, 0.8);
+  }
+  
+  .btn-submit .transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+  }
+  
+  
+  .input-field {
+    max-width: 380px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    height: 55px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 0.4rem;
+    position: relative;
+  }
+  
+  .input-field i {
+    text-align: center;
+    line-height: 55px;
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+  
+  .input-field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #333;
+  }
+  
+  .input-field input::placeholder {
+    color: #aaa;
+    font-weight: 500;
+  }
+  
+  .btn-submit.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .updateProfileContainer {
+      background-color: white;
+    }
+    .updateProfileBox {
+      width: 100vw;
+      height: 95vh;
+    }
+    
+    .updateProfileForm {
+      padding: 5vmax;
+    }
+  
+    .updateProfileForm > div > input {
+      padding: 2.5vmax 5vmax;
+      font: 300 1.7vmax "Merriweather Sans";
+    }
+  
+    .updateProfileForm > div > svg {
+      font-size: 2.8vmax;
+    }
+  
+  
+    #updateProfileImage > img {
+      width: 8vmax;
+      border-radius: 100%;
+    }
+  
+    #updateProfileImage > input::file-selector-button {
+      height: 7vh;
+      font: 400 1.8vmax cursive;
+    }
+  
+    .btn-submit {
+      font: 300 1.9vmax "Merriweather Sans";
+      padding: 1.8vmax;
+    }
+    .forget-password {
+      color: #444;
+      text-decoration: none;
+      font: 300 1vmax "Merriweather Sans";
+    }
+  }
+  
+  .forget-password {
+    color: #444;
+    text-decoration: none;
+    font: 300 1.2vmax "Merriweather Sans";
+  }
+  
+  

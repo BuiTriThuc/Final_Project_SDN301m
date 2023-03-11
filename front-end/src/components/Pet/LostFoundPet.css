@@ -1,0 +1,260 @@
+.padding-spacer-md {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.light-base {
+    background-color: #fff;
+}
+
+#lfdbFeedStatusForm {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1031;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    display: none;
+}
+
+@media only screen and (min-width: 992px) {
+    #lfdbFeedStatusForm {
+        position: relative;
+        background: 0 0;
+        display: block !important;
+        width: auto;
+        height: auto;
+        overflow-y: visible;
+        left: inherit;
+        z-index: 1029;
+    }
+
+}
+
+.panel-group {
+    margin-bottom: 20px;
+}
+
+.filter-widget.panel-group {
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.search-block .filter-widget {
+    margin-top: 0;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .search-block .panel-group#accordion {
+        margin-bottom: 0;
+    }
+}
+
+.text-reverse,
+#text-reverse {
+    color: #fff;
+}
+
+.search-block h5 {
+    font-size: .65em;
+}
+
+@media only screen and (min-width: 992px) {
+    .search-block h5 {
+        font-size: .55em;
+    }
+
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-default .panel-heading {
+    background-color: #8dc63f;
+    color: #fff;
+    border: none;
+}
+
+.filter-widget.panel-group .panel .panel-heading {
+    border-radius: 10px 10px 0 0;
+    padding: 0;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+
+.search-block .panel-title {
+    padding: 3px 15px !important;
+}
+
+.panel-default .panel-heading .panel-title {
+    font-size: 24px;
+}
+
+.filter-widget.panel-group .panel .panel-heading .panel-title {
+    border-radius: 10px 10px 0 0;
+    padding: 10px 15px;
+    background-color: #85a1b4;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.filter-widget.panel-group .panel {
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.filter-widget.panel-group .panel .panel-collapse {
+    border-radius: 0 0 10px 10px;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 992px) {
+    .search-block #collapseOne {
+        height: auto !important;
+        display: block !important;
+        border: 1px solid #d4d4d4;
+        border-top: 0;
+        max-height: 65vh;
+        border-radius: 0;
+        overflow-y: auto;
+    }
+
+}
+
+.fido-blue-text {
+    color: #85a1b4;
+}
+
+.search-block h4 {
+    font-weight: 800;
+}
+
+.search-block h4.first {
+    margin: 2px 0 10px 10px;
+}
+
+.form-group.focus .form-control,
+.form-control:focus,
+.form-group.focus .select2-search input[type=text],
+.select2-search input[type=text]:focus {
+    border-color: #8dc63f;
+    outline: 0;
+    box-shadow: none;
+}
+
+.form-group.focus .form-control,
+.form-control:focus,
+.form-group.focus .select2-search input[type=text],
+.select2-search input[type=text]:focus {
+    border-color: #8dc63f;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+.help-block {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #6b7a88;
+}
+
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline,
+.has-success.radio label,
+.has-success.checkbox label,
+.has-success.radio-inline label,
+.has-success.checkbox-inline label {
+    color: #3c763d;
+}
+
+.has-success .help-block,
+.has-success .control-label,
+.has-success .radio,
+.has-success .checkbox,
+.has-success .radio-inline,
+.has-success .checkbox-inline {
+    color: #2ecc71;
+}
+
+.search-block .col-xs-12 .form-group {
+    margin-bottom: 20px;
+}
+
+.search-block h4.second {
+    margin: 2px 0 3px 10px;
+}
+
+.search-block .checkbox {
+    margin-bottom: 0 !important;
+    margin-right: 20px;
+}
+
+
+
+.search-block .city-zip-address {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.search-block #lfdbfeedstatusform-address {
+    margin-bottom: 8px;
+}
+
+.fido-green-text {
+    color: #8dc63f;
+}
+
+.desktop-submit-button {
+    border-radius:  0 !important;
+    background-color: #8dc63f !important;
+    border: none !important;
+}
+
+.desktop-submit-button:hover {
+    background-color: #bcdd8e !important;
+}
+
+
+
+.text-reverse, #text-reverse {
+    color: #fff !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .search-block .desktop-submit-button {
+        display: block;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .pet-feed-search-results-container {
+        min-height: 700px;
+        padding: 0 30px;
+    }
+
+}
+

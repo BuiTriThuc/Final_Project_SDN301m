@@ -1,0 +1,194 @@
+.emptyCart {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    height: 50vh;
+    padding: 10vmax;
+}
+
+.emptyCart > svg {
+    font-size: 5vmax;
+    color: tomato;
+}
+
+.emptyCart > p {
+    font-size: 2vmax;
+}
+
+.emptyCart > a {
+    background-color: #52b69a;
+    color: white;
+    font: 400 1vmax "Merriweather Sans";
+    text-decoration: none;
+    padding: 1vmax 3vmax;
+    border: none;
+    cursor: pointer;
+}
+.cartPage {
+    padding: 5vmax
+}
+
+.cartHeader {
+    background-color: #52b69a;
+    width: 90%;
+    box-sizing: border-box;
+    margin: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    font: 300 0.7vmax "Merriweather Sans";
+}
+
+.cartHeader>p {
+    margin: 10px;
+    font-size: 1vmax;
+}
+
+.cartHeader>p:last-child {
+    text-align: end;
+}
+
+.cartContainer {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr;
+}
+
+.cartInput {
+    align-items: center;
+    display: flex;
+    height: 8vmax;
+}
+
+.cartInput>button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0.5vmax;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 2px;
+}
+
+.cartInput>button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+}
+
+.cartInput>input {
+    border: none;
+    width: 2.2vmax;
+    text-align: center;
+    outline: none;
+    font: 400 0.8vmax "Merriweather Sans";
+    color: rgba(0, 0, 0, 0.74);
+}
+
+.cartSubtotal {
+    display: flex;
+    padding: 0.5vmax;
+    height: 8vmax;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    font: 300 1vmax "Merriweather Sans";
+    color: tomato;
+    font-weight: bold;
+}
+
+.cartGrossProfit {
+    display: grid;
+    grid-template-columns: 2fr 1.2fr;
+}
+
+.cartGrossProfitBox {
+    border-top: 3px solid #52b69a;
+    margin: 1vmax 4vmax;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.cartGrossProfitBox > p {
+    font-size: 1vmax;
+    font-weight: bold;
+}
+
+.checkOutBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.checkOutBtn>button {
+    width: 50%;
+    background-color: rgba(52, 160, 164, 0.8);
+    color: white;
+    border: none;
+    padding: 0.8vmax 4vmax;
+    font: 300 0.8vmax "Merriweather Sans";
+    font-size: 1vmax;
+    margin: 1vmax 4vmax;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.checkOutBtn>button:hover {
+    background-color: rgba(14, 206, 212, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+    .cartPage {
+        padding: 0;
+        min-height: 60vh;
+    }
+
+    .cartHeader {
+        width: 100%;
+        font: 300 1.7vmax "Merriweather Sans";
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+
+    .cartContainer {
+        width: 100%;
+        grid-template-columns: 3fr 1fr 1fr;
+    }
+
+    .cartInput {
+        height: 15vmax;
+    }
+
+    .cartInput > button {
+        padding: 1vmax;
+    }
+
+    .cartInput > input {
+        width: 2.5vmax;
+        font: 400 1.8vmax "Merriweather Sans";
+    }
+
+    .cartSubtotal {
+        padding: 1.5vmax;
+        height: 15vmax;
+        font: 300 1.5vmax "Merriweather Sans";
+        font-weight: bold;
+    }
+
+    .cartGrossProfit {
+        display: grid;
+        grid-template-columns: 0fr 2fr;
+    }
+
+    .cartGrossProfitBox {
+        padding: 2vmax;
+        font: 300 2vmax "Merriweather Sans";
+    }
+
+    .checkOutBtn > button {
+        padding: 2vmax 4vmax;
+        width: 100%;
+        font: 300 2vmax "Merriweather Sans";
+    }
+}

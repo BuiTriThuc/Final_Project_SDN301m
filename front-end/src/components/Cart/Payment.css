@@ -1,0 +1,95 @@
+.paymentContainer {
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    margin: 2vmax;
+}
+
+.paymentForm {
+    width: 22%;
+    height: 100%;
+}
+
+.paymentForm>p {
+    font: 400 2vmax "Merriweather Sans";
+    color: rgba(0, 0, 0, 0.753);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    text-align: center;
+    padding: 1vmax 0;
+    width: 50%;
+    margin: auto;
+}
+
+.paymentForm>div {
+    display: flex;
+    align-items: center;
+    margin: 2vmax 0;
+}
+
+.paymentInput {
+    padding: 1.5vmax 4vmax;
+    padding-right: 1vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+}
+
+
+.paymentForm>div>svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6vmax;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.paymentFormBtn {
+    width: 100%;
+    background-color: rgba(52, 160, 164, 0.8);
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.paymentFormBtn:hover {
+    background-color: rgba(14, 206, 212, 0.8);
+}
+
+@media screen and (max-width: 600px) {
+    .paymentForm {
+        width: 90%;
+    }
+
+    .paymentForm > p {
+        font: 400 8vw "Merriweather Sans";
+        padding: 4vw 0;
+        width: 60%;
+    }
+
+    .paymentForm > div {
+        margin: 10vw 0;
+    }
+
+    .paymentInput {
+        padding: 4vw 10vw;
+    }
+
+    .paymentForm > div > svg {
+        font-size: 6vw;
+    }
+
+    .paymentFormBtn {
+        font: 300 4vw "Merriweather Sans";
+        padding: 4vw;
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,619 @@
+.enter-infor {
+    background: url("../../images/lostbanner.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .enter-infor {
+      height: 1200px;
+    }
+  }
+  
+  .enter-infor span {
+    color: red;
+  }
+  
+  .enter-infor .row {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  
+  .enter-infor .row .enter-left {
+    text-align: center;
+    padding-top: 150px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .enter-infor .row .enter-left {
+      padding-top: 0%;
+      padding-bottom: 30px;
+    }
+  }
+  
+  .enter-infor .row .enter-left h1 {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .enter-infor .row .enter-left h1 {
+      font-size: 34px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .enter-infor .row .enter-left h1 {
+      font-size: 30px;
+    }
+  }
+  
+  .enter-infor .row .enter-left p {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .enter-infor .row .enter-left p {
+      font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .enter-infor .row .enter-left p {
+      font-size: 24px;
+    }
+  }
+  
+  .enter-infor .row .enter-right {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .enter-infor .row .enter-right {
+      width: 65%;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .enter-infor .row .enter-right {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .enter-infor .row .enter-right {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .enter-infor .row .enter-right {
+      width: 90%;
+    }
+  }
+  
+  .enter-infor .row .enter-right .enter-title {
+    margin-bottom: 30px;
+  }
+  
+  .enter-infor .row .enter-right .enter-title h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: green;
+  }
+  
+  .enter-infor .row .enter-right .enter-title p {
+    font-size: 17px;
+    color: #636363;
+    margin-bottom: 15px;
+  }
+  
+  .enter-infor .row .enter-right .enter-main .radio-box {
+    margin-bottom: 30px;
+  }
+  
+  .enter-infor .row .enter-right .enter-main .form-item {
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .enter-infor .row .enter-right .enter-main .form-item {
+      display: block;
+    }
+  }
+  
+  .enter-infor .row .enter-right .enter-main .form-item .form-left {
+    width: 50%;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .enter-infor .row .enter-right .enter-main .form-item .form-left {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .enter-infor .row .enter-right .enter-main .form-item .form-left .form-label {
+      font-size: 14px;
+    }
+  }
+  
+  .enter-infor .row .enter-right .enter-main .form-item .form-right {
+    width: 50%;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .enter-infor .row .enter-right .enter-main .form-item .form-right {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .enter-infor
+      .row
+      .enter-right
+      .enter-main
+      .form-item
+      .form-right
+      .form-label {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .enter-infor .row .enter-right .form-check-label {
+      font-size: 14px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .enter-infor .row .enter-right .form-check-label {
+      font-size: 12px;
+    }
+  }
+  
+  .enter-infor .row .enter-right .btn-enter {
+    text-align: center;
+  }
+  
+  .enter-infor .row .enter-right .btn-enter button {
+    padding: 10px 20px;
+    border-radius: 10px;
+  }
+  
+  .lost {
+    padding: 50px 0px;
+  }
+  
+  .lost .lost-title h1 {
+    font-weight: 600;
+    color: #262626;
+    padding-bottom: 20px;
+  }
+  
+  .lost .row .lost-item .card {
+    border: 2px solid #8d99ae;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .lost .row .lost-item .card .card-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .lost .row .lost-item .card .card-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .lost .row .lost-item .card .card-img img:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .lost .row .lost-item .card .card-img .badge-lost {
+    position: absolute;
+    top: -5px;
+    right: -4px;
+  }
+  
+  .lost .row .lost-item .card .card-content {
+    border: none;
+    padding: 0px 4px 4px 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-id .id-left {
+    width: 30%;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-id .id-right {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-missing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-missing .missing-left {
+    width: 50%;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-missing .missing-right {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-place .place-left {
+    width: 50%;
+  }
+  
+  .lost .row .lost-item .card .card-content .pet-place .place-right {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .lost .row .lost-item .card .card-content p {
+    text-align: right;
+    margin: 5px 5px 5px 0px;
+    color: #636363;
+  }
+  
+  .lost .row .lost-item .card .card-content .btn-card {
+    width: 100%;
+    background: #ef233c;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .lost .row .lost-item .card .card-content .btn-card .btn-lost-info {
+    text-decoration: none;
+    color: #2b2d42;
+    width: 100%;
+    display: block;
+  }
+  
+  .lost .row .lost-item .card .card-content .btn-card:hover {
+    background: #d90429;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .lost .row .lost-item .card:hover {
+    -webkit-box-shadow: 0 40px 40px -10px #00000033;
+    box-shadow: 0 40px 40px -10px #00000033;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .comebackhome {
+    padding: 50px 0px;
+    background-color: #92e6a7;
+  }
+  
+  .comebackhome .reunited-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .comebackhome .reunited-title h1 {
+    font-weight: 700;
+    color: #262626;
+    font-size: 46px;
+  }
+  
+  .comebackhome .reunited-title p {
+    color: #636363;
+    font-size: 18px;
+  }
+  
+  .comebackhome .reunited-title h3 {
+    font-weight: 600;
+    color: #262626;
+    font-size: 30px;
+  }
+  
+  .comebackhome .reunited-title h6 {
+    font-weight: 600;
+    color: #262626;
+    font-size: 22px;
+  }
+  
+  .comebackhome .row .reunited-item .card {
+    border: 2px solid #8d99ae;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-img .badge-lost {
+    position: absolute;
+    top: -5px;
+    right: -4px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin: 10px 10px 0px 10px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-title .card-title-left {
+    width: 50%;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-title .card-title-left h5 {
+    color: #25a244;
+    font-size: 24px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-title .card-title-left p {
+    font-size: 14px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-title .card-title-right {
+    width: 50%;
+    text-align: right;
+    color: #636363;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-content {
+    border: none;
+    padding: 0px 4px 4px 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .comebackhome .row .reunited-item .card .card-content p {
+    margin: 5px 5px 5px 0px;
+    color: #636363;
+    font-size: 18px;
+  }
+  
+  .comebackhome .row .reunited-item .card:hover {
+    -webkit-box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  
+  .found {
+    padding: 50px 0px;
+    background-color: #ade8f4;
+  }
+  
+  .found .found-title h1 {
+    font-weight: 600;
+    color: #262626;
+    padding-bottom: 20px;
+  }
+  
+  .found .row .found-item .card {
+    border: 2px solid #8d99ae;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .found .row .found-item .card .card-img {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .found .row .found-item .card .card-img img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .found .row .found-item .card .card-img img:hover {
+    -webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  
+  .found .row .found-item .card .card-img .badge-found {
+    position: absolute;
+    top: -5px;
+    right: -4px;
+  }
+  
+  .found .row .found-item .card .card-content {
+    border: none;
+    padding: 0px 4px 4px 4px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .found .row .found-item .card .card-content .pet-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .found .row .found-item .card .card-content .pet-id .id-left {
+    width: 30%;
+  }
+  
+  .found .row .found-item .card .card-content .pet-id .id-right {
+    width: 30%;
+    text-align: right;
+  }
+  
+  .found .row .found-item .card .card-content .pet-missing {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .found .row .found-item .card .card-content .pet-missing .missing-left {
+    width: 50%;
+  }
+  
+  .found .row .found-item .card .card-content .pet-missing .missing-right {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .found .row .found-item .card .card-content .pet-place {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: rgba(43, 45, 66, 0.85);
+    border-radius: 3px;
+    margin-top: 6px;
+    color: white;
+    padding: 4px 8px;
+    font-size: 13px;
+    overflow: hidden;
+  }
+  
+  .found .row .found-item .card .card-content .pet-place .place-left {
+    width: 50%;
+  }
+  
+  .found .row .found-item .card .card-content .pet-place .place-right {
+    width: 50%;
+    text-align: right;
+  }
+  
+  .found .row .found-item .card .card-content p {
+    text-align: right;
+    margin: 5px 5px 5px 0px;
+    color: #636363;
+  }
+  
+  .found .row .found-item .card .card-content .btn-card {
+    width: 100%;
+    background: #0077b6;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 5px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .found .row .found-item .card .card-content .btn-card .btn-found-info {
+    text-decoration: none;
+    color: #fff;
+    width: 100%;
+    display: block;
+  }
+  
+  .found .row .found-item .card .card-content .btn-card:hover {
+    background: #0096c7;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+  
+  .found .row .found-item .card:hover {
+    -webkit-box-shadow: 0 40px 40px -10px #00000033;
+    box-shadow: 0 40px 40px -10px #00000033;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
